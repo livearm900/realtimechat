@@ -1,0 +1,54 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+.login-page {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    rgb(248, 246, 227),
+    rgb(151, 231, 225),
+    rgb(106, 212, 221),
+    rgb(122, 162, 227)
+  );
+}
+
+.card {
+  width: 200px;
+  position: relative;
+  left: calc(50vw - 100px);
+  text-align: center;
+  padding-top: 6vw;
+}
+.title {
+  padding-top: 32px;
+  font-size: 22px;
+  color: rgb(91, 65, 151);
+  font-weight: 700;
+}
+input {
+  width: calc(100% - 16px);
+  margin-top: 12px;
+  padding: 8px;
+  background-color: #b0e0f7;
+  outline: none;
+  border: 1px solid rgb(91, 65, 151);
+}
+button {
+  margin-top: 12px;
+  width: 100%;
+  padding: 8px;
+}
+
+.pretty-chat-window .chat-message {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.pretty-chat-window .chat-input {
+  font-family: 'Roboto', sans-serif;
+}
